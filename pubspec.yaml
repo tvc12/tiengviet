@@ -1,0 +1,12 @@
+name: vn_unsign
+version: 0.1.0
+description: Convert vietnamese sign to unsign easily. 
+author: Vi Chi Thien <thienvc12.it@gmail.com>
+homepage: https://github.com/tvc12/vn-unsign
+repository: https://github.com/tvc12/vn-unsign
+documentation: https://github.com/tvc12/vn-unsign
+issue_tracker: https://github.com/tvc12/vn-unsign/issues
+environment:
+  sdk: '>=1.19.0 <3.0.0'
+dev_dependencies:
+  test: ^1.0.0
