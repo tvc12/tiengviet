@@ -3,5 +3,4 @@ cache:
   directories:
     - "$HOME/.pub-cache"
 script:
-  - pub get
   - pub run test
