@@ -2,10 +2,10 @@
 
 Convert vietnamese sign to unsign easily.
 
-[![Build Status](https://travis-ci.org/tvc12/vn-unsign.svg?branch=master)](https://travis-ci.org/tvc12/vn-unsign)
-![](https://img.shields.io/github/contributors/tvc12/vn-unsign.svg)
-![](https://img.shields.io/badge/pub-v0.1.0-brightgreen.svg)
-![GitHub](https://img.shields.io/github/license/tvc12/vn-unsign.svg)
+[![Build Status](https://travis-ci.com/tvc12/tiengviet.svg?branch=master)](https://travis-ci.com/tvc12/tiengviet)
+![](https://img.shields.io/github/contributors/tvc12/tiengviet.svg)
+![GitHub](https://img.shields.io/github/license/tvc12/tiengviet.svg)
+![GitHub](https://img.shields.io/github/license/tvc12/tiengviet.svg)
 
 🇻🇳 Công cụ chuyển đổi Tiếng Việt có dấu sang không dấu.
 
