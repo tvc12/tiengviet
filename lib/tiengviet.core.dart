@@ -1,6 +1,4 @@
-import 'dart:core';
-
-class VnUnsignCore {
+class TiengvietCore {
   final _vietnamese = "aAeEoOuUiIdDyY";
   final _vietnameseRegex = [
     RegExp(r'à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ'),
