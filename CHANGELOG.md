@@ -1,3 +1,6 @@
+### Version 0.2.1 (23-04-2019)
+- Update description
+
 ### Version 0.2.0 (22-04-2019)
 - Rename package **vn_unsign** to **tiengviet**
 

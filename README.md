@@ -1,4 +1,4 @@
-# vn
+# tiengviet
 
 Convert vietnamese sign to unsign easily.
 

@@ -1,7 +1,8 @@
 name: tiengviet
-version: 0.2.0
+version: 0.2.1
 description: >-
-  🇻🇳 Công cụ chuyển đổi Tiếng Việt có dấu sang không dấu một cách dễ dàng.
+  🇻🇳 Converts vietnamese language sign to unsigned easily.
+  Give me a string vietnamese language, i will respond you string vietnamese unsigned.
 author: Vi Chi Thien <thienvc12.it@gmail.com>
 homepage: https://github.com/tvc12/tiengviet
 repository: https://github.com/tvc12/tiengviet
