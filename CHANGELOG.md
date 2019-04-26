@@ -1,3 +1,6 @@
+### Version 0.2.2 (26-04-2019)
+- Fix missing version
+
 ### Version 0.2.1 (23-04-2019)
 - Update description
 
