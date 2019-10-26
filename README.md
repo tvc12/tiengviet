@@ -6,7 +6,7 @@ Convert vietnamese sign to unsign easily.
 ![](https://img.shields.io/github/contributors/tvc12/tiengviet.svg)
 ![GitHub](https://img.shields.io/github/license/tvc12/tiengviet.svg)
 [![Hits-of-Code](https://hitsofcode.com/github/tvc12/tiengviet)](https://hitsofcode.com/view/github/tvc12/tiengviet)
-![](https://img.shields.io/badge/pub-v0.2.2-blue.svg)
+![](https://img.shields.io/badge/pub-v0.3.0-blue.svg)
 
 🇻🇳 Công cụ chuyển đổi Tiếng Việt có dấu sang không dấu.
 
