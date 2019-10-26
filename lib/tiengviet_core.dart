@@ -1,6 +1,8 @@
-class TiengvietCore {
-  final _vietnamese = "aAeEoOuUiIdDyY";
-  final _vietnameseRegex = [
+part of tiengviet;
+
+abstract class TiengVietCore {
+  static const String _vietnamese = "aAeEoOuUiIdDyY";
+  static final List<RegExp> _vietnameseRegex = <RegExp>[
     RegExp(r'à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ'),
     RegExp(r'À|Á|Ạ|Ả|Ã|Â|Ầ|Ấ|Ậ|Ẩ|Ẫ|Ă|Ằ|Ắ|Ặ|Ẳ|Ẵ'),
     RegExp(r'è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ'),
@@ -17,10 +19,13 @@ class TiengvietCore {
     RegExp(r'Ỳ|Ý|Ỵ|Ỷ|Ỹ')
   ];
 
-  String Unsign(String text) {
-    for (int i = 0; i < _vietnamese.length; ++i) {
-      text = text.replaceAll(_vietnameseRegex[i], _vietnamese[i]);
+  static String unsign(final String text) {
+    String result = text;
+    if (result is String) {
+      for (int i = 0; i < _vietnamese.length; ++i) {
+        result = result.replaceAll(_vietnameseRegex[i], _vietnamese[i]);
+      }
     }
-    return text;
+    return result;
   }
 }

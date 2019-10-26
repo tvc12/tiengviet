@@ -1,6 +1,7 @@
 import 'package:tiengviet/tiengviet.dart';
 
-main() {
-  var str = tiengviet("Hello Việt Nam");
+void main() {
+  String str = tiengviet("Hello Việt Nam");
+  //ignore: avoid_print
   print(str); // Hello Viet Nam
 }
