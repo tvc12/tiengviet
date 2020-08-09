@@ -1,25 +1,47 @@
 # tiengviet
 
-Convert vietnamese sign to unsign easily.
+Convert vietnamese sign to unsign easily like eat 🥞🥞🥞.
 
-[![Build Status](https://travis-ci.com/tvc12/tiengviet.svg?branch=master)](https://travis-ci.com/tvc12/tiengviet)
-![](https://img.shields.io/github/contributors/tvc12/tiengviet.svg)
-![GitHub](https://img.shields.io/github/license/tvc12/tiengviet.svg)
-[![Hits-of-Code](https://hitsofcode.com/github/tvc12/tiengviet)](https://hitsofcode.com/view/github/tvc12/tiengviet)
-![](https://img.shields.io/badge/pub-v0.3.0-blue.svg)
+![Build Status](https://img.shields.io/travis/com/tvc12/tiengviet?style=flat-square)
+![Contribute](https://img.shields.io/github/contributors/tvc12/tiengviet.svg?style=flat-square)
+![GitHub](https://img.shields.io/github/license/tvc12/tiengviet.svg?style=flat-square)
+[![Hits-of-Code](https://hitsofcode.com/github/tvc12/tiengviet)](https://hitsofcode.com/view/github/tvc12/tiengviet?style=flat-square)
+![Pub Version](https://img.shields.io/pub/v/tiengviet?style=flat-square)
 
-🇻🇳 Công cụ chuyển đổi Tiếng Việt có dấu sang không dấu.
+🇻🇳 Công cụ chuyển đổi Tiếng Việt có dấu sang không dấu dễ hơn là ăn bánh 🥞🥞🥞🥞.
 
 ### Getting Started
+
+#### Install
+
+```yml
+dependencies:
+  tiengviet: ^0.4.0
+```
+
+You can install packages from the command line:
+
+```bash
+pub get
+-- or --
+flutter pub get
+```
+
+#### Usage
 
 ```dart
 import 'package:tiengviet/tiengviet.dart';
 
-print(tiengviet('Xin chào việt nam')); // xin chao viet nam
+print(TiengViet.parse('Xin chào việt nam')); // xin chao viet nam
 ```
 
 ### Contributors
 
 | [![Vi Chi Thien](https://github.com/tvc12.png?size=100)](https://github.com/tvc12) |
-| :---: |
-| [Vi Chi Thien](https://github.com/tvc12) |
+| :--------------------------------------------------------------------------------: |
+|                      [Vi Chi Thien](https://github.com/tvc12)                      |
+
+
+### License
+
+[BSD 3-Clause @tvc12](./LICENSE)

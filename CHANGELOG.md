@@ -1,3 +1,10 @@
+### Version 0.4.0 (09-08-2020)
+
+- Update README
+- Upgrade project
+- Add TiengViet class
+- Deprecated tiengviet function
+
 ### Version 0.3.0 (27-10-2019)
 
 - Fix throw exception when text is null
