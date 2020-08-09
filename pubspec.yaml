@@ -1,5 +1,5 @@
 name: tiengviet
-version: 0.4.0
+version: 0.4.1
 description: >-
   🇻🇳 Converts vietnamese language sign to unsigned easily. 😍
   Give me a string vietnamese language, i will respond you string vietnamese unsigned. 👍
@@ -10,5 +10,5 @@ issue_tracker: https://github.com/tvc12/tiengviet/issues
 environment:
   sdk: '>=1.19.0 <3.0.0'
 dev_dependencies:
-  test: ^1.0.0
+  test: 1.15.3
   pedantic: 1.9.2
