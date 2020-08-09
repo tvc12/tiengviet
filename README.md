@@ -16,7 +16,7 @@ Convert vietnamese sign to unsign easily like eat 🥞🥞🥞.
 
 ```yml
 dependencies:
-  tiengviet: ^0.4.0
+  tiengviet: ^0.4.1
 ```
 
 You can install packages from the command line:

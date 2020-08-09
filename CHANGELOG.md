@@ -1,3 +1,8 @@
+### Version 0.4.1 (09-08-2020)
+
+- Update README
+- Update pubspec.lock
+
 ### Version 0.4.0 (09-08-2020)
 
 - Update README
