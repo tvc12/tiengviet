@@ -35,6 +35,10 @@ import 'package:tiengviet/tiengviet.dart';
 print(TiengViet.parse('Xin chào việt nam')); // xin chao viet nam
 ```
 
+### You might also like
+
+- [vietnamese](https://github.com/103cuong/vietnamese) - ✂️🇻🇳 A helpful tool for removing Vietnamese accents.
+
 ### Contributors
 
 | [![Vi Chi Thien](https://github.com/tvc12.png?size=100)](https://github.com/tvc12) |
