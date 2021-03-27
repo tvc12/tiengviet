@@ -1,9 +1,8 @@
-part of tiengviet;
+part of parser_engine;
 
-@Deprecated('Use ParserEngine instead. Will remove in tiengviet: 1.0.0')
-abstract class TiengVietCore {
-  static const _vietnamese = 'aAeEoOuUiIdDyY';
-  static final _vietnameseRegex = <RegExp>[
+class VietnameseParserEngine implements ParserEngine {
+  final  _vietnamese = 'aAeEoOuUiIdDyY';
+  final _vietnameseRegex = <RegExp>[
     RegExp(r'à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ'),
     RegExp(r'À|Á|Ạ|Ả|Ã|Â|Ầ|Ấ|Ậ|Ẩ|Ẫ|Ă|Ằ|Ắ|Ặ|Ẳ|Ẵ'),
     RegExp(r'è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ'),
@@ -20,7 +19,8 @@ abstract class TiengVietCore {
     RegExp(r'Ỳ|Ý|Ỵ|Ỷ|Ỹ')
   ];
 
-  static String unsigned(final String text) {
+  @override
+  String unsigned(final String text) {
     var result = text;
     for (var i = 0; i < _vietnamese.length; ++i) {
       result = result.replaceAll(_vietnameseRegex[i], _vietnamese[i]);

@@ -8,7 +8,6 @@ include: package:pedantic/analysis_options.yaml
 # # Uncomment to specify additional rules.
 linter:
   rules:
-    - avoid_as
     - camel_case_types
     # - avoid_print
     - unnecessary_new
