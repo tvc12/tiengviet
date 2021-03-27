@@ -1,3 +1,8 @@
+### Version 0.5.0 (27-03-2020)
+
+- Support null safety
+- Deprecated TiengVietCore
+
 ### Version 0.4.1 (09-08-2020)
 
 - Update README

@@ -31,6 +31,14 @@ void main() {
         ),
       );
       expect(
+        TiengViet.parse(
+          'VĂN HỌC THEO CÁCH NÓI CHUNG NHẤT, LÀ BẤT KỲ TÁC PHẨM NÀO BẰNG VĂN BẢN',
+        ),
+        equals(
+          'VAN HOC THEO CACH NOI CHUNG NHAT, LA BAT KY TAC PHAM NAO BANG VAN BAN',
+        ),
+      );
+      expect(
         TiengViet.parse('Bạn đang có ý tưởng về 1 công cụ nào đó'),
         equals(
           'Ban dang co y tuong ve 1 cong cu nao do',
@@ -65,12 +73,6 @@ void main() {
       expect(
         TiengViet.parse('Đây là tiếng mẹ đẻ của khoảng 85% dân cư Việt Nam'),
         equals('Day la tieng me de cua khoang 85% dan cu Viet Nam'),
-      );
-    });
-    test('Test with value is null', () {
-      expect(
-        TiengViet.parse(null),
-        equals(null),
       );
     });
     test('Test with value is empty', () {
