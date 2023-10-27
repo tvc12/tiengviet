@@ -1,7 +1,10 @@
 part of parser_engine;
 
+/// The parser engine for Vietnamese language using regex.
+/// Because `VietnameseParserEngine2` is faster than `VietnameseParserEngine`.
+@Deprecated('Use `VietnameseParserEngine2` instead of')
 class VietnameseParserEngine implements ParserEngine {
-  final  _vietnamese = 'aAeEoOuUiIdDyY';
+  final _vietnamese = 'aAeEoOuUiIdDyY';
   final _vietnameseRegex = <RegExp>[
     RegExp(r'à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ'),
     RegExp(r'À|Á|Ạ|Ả|Ã|Â|Ầ|Ấ|Ậ|Ẩ|Ẫ|Ă|Ằ|Ắ|Ặ|Ẳ|Ẵ'),

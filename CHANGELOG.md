@@ -1,3 +1,9 @@
+### Version 1.0.0 (27-11-2023)
+
+- Implement VietnameseParserEngine2 using hashmap to improve performance
+- Deprecated VietnameseParserEngine, VietnameseParserEngine2 is the default engine
+- Update README add performance section
+
 ### Version 0.5.0 (27-03-2020)
 
 - Support null safety
