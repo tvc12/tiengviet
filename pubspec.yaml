@@ -1,8 +1,8 @@
 name: tiengviet
 version: 1.0.0
 description: >-
-  🇻🇳 Converts vietnamese language sign to unsigned easily. 😍
-  Give me a string vietnamese language, i will respond you string vietnamese unsigned. 👍
+  Converts vietnamese language sign to unsigned easily.
+  Give me a string vietnamese language, i will respond you string vietnamese unsigned.
 homepage: https://github.com/tvc12/tiengviet
 repository: https://github.com/tvc12/tiengviet
 documentation: https://github.com/tvc12/tiengviet
