@@ -1,0 +1,15 @@
+Microseconds được viết tắt là µs. Đây là một đơn vị thời gian nhỏ, bằng 1/1.000.000 giây.
+
+Trong tiếng Việt, microseconds thường được sử dụng trong các lĩnh vực khoa học và công nghệ, chẳng hạn như điện tử, quang học, vật lý...
+
+Ví dụ, tốc độ âm thanh trong không khí là khoảng 343 m/s. Như vậy, âm thanh sẽ đi được khoảng 343 µm trong 1 µs.
+
+Hoặc, tốc độ xung nhịp của một CPU máy tính thường được tính bằng MHz hoặc GHz. 1 MHz tương đương với 1 triệu chu kỳ mỗi giây, tương đương với 1.000 µs.
+
+Dưới đây là một số ví dụ về cách sử dụng microsecond trong tiếng Việt:
+
+    Thời gian đáp ứng của một màn hình LCD là 1 ms, tương đương với 1.000 µs.
+    Độ trễ của một bàn phím là 5 ms, tương đương với 5.000 µs.
+    Tốc độ truyền dữ liệu của một mạng Ethernet là 100 Mbps, tương đương với 10 µs/bit.
+
+Hy vọng điều này sẽ giúp bạn!
