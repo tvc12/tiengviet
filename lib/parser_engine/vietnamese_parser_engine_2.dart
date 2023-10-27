@@ -6,7 +6,7 @@ part of parser_engine;
 /// Because `VietnameseParserEngine2` is faster than `VietnameseParserEngine`.
 class VietnameseParserEngine2 implements ParserEngine {
 
-  final Map<String, String> _signToUnsignMap = Map();
+  final Map<String, String> _signToUnsignMap = {};
 
   VietnameseParserEngine2() {
     final sign = 'àáạảãâầấậẩẫăằắặẳẵÀÁẠẢÃÂẦẤẬẨẪĂẰẮẶẲẴèéẹẻẽêềếệểễÈÉẸẺẼÊỀẾỆỂỄòóọỏõôồốộổỗơờớợởỡÒÓỌỎÕÔỒỐỘỔỖƠỜỚỢỞỠùúụủũưừứựửữÙÚỤỦŨƯỪỨỰỬỮìíịỉĩÌÍỊỈĨđĐỳýỵỷỹỲÝỴỶỸ';

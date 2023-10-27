@@ -8,7 +8,7 @@ repository: https://github.com/tvc12/tiengviet
 documentation: https://github.com/tvc12/tiengviet
 issue_tracker: https://github.com/tvc12/tiengviet/issues
 environment:
-  sdk: '>=2.12.0'
+  sdk: '>=2.12.0 <4.0.0'
 dev_dependencies:
   test: ^1.24.9
   pedantic: 1.11.0
